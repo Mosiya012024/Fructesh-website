@@ -1,0 +1,52 @@
+@media (min-width: 1920px) {
+    .header {
+        display: flex;
+        margin: 40px 300px 40px 300px;
+        justify-content: space-between;
+    }
+
+    .hero-section1-image {
+        width: 1903px;
+        background-size: cover;
+    }
+    .hero-section1-text {
+        left: 400px;
+    }
+
+    .hero-section2-image {
+        width: 1903px;
+        background-size: cover;
+    }
+    .hero-section2-message {
+        margin-right: 300px;
+    }
+    
+    .hero-section3 {
+        justify-content: space-around;
+    }
+    
+    .hero-section4-blog1 {
+        animation: blogSlide;
+        animation-duration: 10s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+    }
+    @keyframes blogSlide {
+        0% {
+            transform: translateX(0px);
+        }
+        40% {
+            transform: translateX(-300px);
+        }
+        80% {
+            transform: translateX(-600px);
+        }
+    }
+    
+    .testimonial-images {
+        margin: 100px;
+        padding-top: 100px;
+        padding-bottom: 150px;
+        align-items: center;
+    }
+}
